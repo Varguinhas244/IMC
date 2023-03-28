@@ -1,0 +1,88 @@
+@font-face {
+    font-family: fonte1;
+    src: url(fonte/The\ Amazing\ Spider-Man.ttf)
+}
+
+@font-face {
+    font-family: fonte2;
+    src: url(fonte/Pronave.ttf)
+}
+
+
+body {
+    background-image: url(https://a-static.besthdwallpaper.com/spiderman-playing-with-phone-lying-on-spider-web-in-front-of-black-background-wallpaper-1284x2778-104429_228.jpg),
+    url(https://external-preview.redd.it/egd_3tq50zuNCedCan0_awSFEejwCfi87t31WF4tPo0.jpg?width=640&crop=smart&auto=webp&s=37b9b0b0b406893f1275a9aa6aceb8dbf05f8ca5);
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(0, 0, 0);
+    background-size: 300px;
+    background-position: 100% -200px, top left;
+    text-align: center;
+
+    cursor: url(), default;
+}
+
+label {
+    color:  rgb(194, 5, 5);
+    display: block;
+    padding: 10px;
+    font-size: 30px;
+    font-family: fonte2;
+    text-shadow: 2px 1px #0B438C;
+}
+
+input::-webkit-inner-spin-button,input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+input {
+    border-color: red;
+    border-radius: 5px;
+    padding: 7px;
+    background-color: #0B438C;
+    color: white;
+}
+
+
+
+h1 {
+    color: rgb(194, 5, 5);
+    font-size: 60px;
+    text-align: center;
+    font-family: fonte1;
+
+}
+
+p {
+    color: rgb(194, 5, 5);
+    font-size: 30px;
+    font-family: fonte2;
+    text-shadow: 2px 1px #0B438C;
+}
+
+span {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    color: rgba(255, 0, 0, 0.544);
+}
+
+button {
+    text-align: center;
+    margin-top: 20px;
+    padding: 7px;
+    font-family: fonte2;
+    border-color: red;
+    background-color: #0B438C;
+    color:   rgb(194, 5, 5);
+}
+
+.footer {
+    text-align: center;
+    font-family: fonte2;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 150px;
+}
